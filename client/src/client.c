@@ -77,7 +77,7 @@ t_config* iniciar_config(void)
 {
 	t_config* nuevo_config;
 
-	if((nuevo_config = config_create("./cliente.config")) == NULL){
+	if((nuevo_config = config_create("/home/utnso/Desktop/tp0/client/cliente.config")) == NULL){
 		printf("No se pudo crear el config \n");
 		exit(1);
 	}
